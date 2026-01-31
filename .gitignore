@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# virtual env
+.venv/
+venv/
+
+# project artifacts to ignore
+logs/
+reports/
+screenshots/
+
+# IDE
+.vscode/

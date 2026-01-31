@@ -1,0 +1,23 @@
+{
+  "base_url": "https://www.ebay.com/",
+  "browser_config": {
+    "headless": false,
+    "slow_mo": 500
+  },
+  "test_data": {
+    "search_term": "mazda mx-5",
+    "filters": {
+      "transmission": "Manual"
+    }
+  },
+  "timeouts": {
+    "default": 30000,
+    "navigation": 45000,
+    "element_wait": 10000
+  },
+  "logging": {
+    "log_file": "test_execution.log",
+    "log_level": "INFO",
+    "report_file": "test_report.html"
+  }
+}
