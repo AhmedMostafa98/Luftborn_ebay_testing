@@ -1,0 +1,49 @@
+2026-01-31 23:11:36 - root - INFO - Logging initialized - Log file: logs\test_20260131_231136.log
+2026-01-31 23:11:36 - root - INFO - === TEST SESSION START: 20260131_231136 ===
+2026-01-31 23:11:36 - root - INFO - >>> START TEST: test_search_and_filter[chromium]
+2026-01-31 23:11:37 - base_page - INFO - Navigating to: https://www.ebay.com/
+2026-01-31 23:11:39 - base_page - INFO - Successfully navigated to: https://www.ebay.com/
+2026-01-31 23:11:39 - home_page - INFO - Navigated to eBay home page
+2026-01-31 23:11:39 - home_page - INFO - Searching for: mazda mx-5
+2026-01-31 23:11:39 - home_page - INFO - Validating eBay home page is loaded
+2026-01-31 23:11:39 - base_page - INFO - Waiting for element: input[placeholder="Search for anything"]
+2026-01-31 23:11:39 - home_page - INFO - eBay home page loaded successfully
+2026-01-31 23:11:39 - base_page - INFO - Filling text into input[placeholder="Search for anything"]: mazda mx-5
+2026-01-31 23:11:39 - home_page - INFO - Entered search term: mazda mx-5
+2026-01-31 23:11:39 - base_page - INFO - Clicking element: button[type="submit"]
+2026-01-31 23:11:40 - home_page - INFO - Clicked search button
+2026-01-31 23:11:40 - base_page - INFO - Waiting for load state: 
+2026-01-31 23:11:40 - home_page - INFO - Search results page loaded
+2026-01-31 23:11:40 - search_results_page - INFO - Validating search results are displayed
+2026-01-31 23:11:40 - base_page - INFO - Waiting for element: ul.srp-results div.su-card-container
+2026-01-31 23:11:42 - base_page - INFO - Found 1 elements matching: ul.srp-results div.su-card-container
+2026-01-31 23:11:42 - search_results_page - INFO - Found 1 result items displayed
+2026-01-31 23:11:42 - search_results_page - INFO - Getting search result count
+2026-01-31 23:11:42 - base_page - INFO - Getting text from: h1.srp-controls__count-heading span:first-child
+2026-01-31 23:11:42 - search_results_page - INFO - Result count text: 1
+2026-01-31 23:11:42 - search_results_page - INFO - Total search results: 1
+2026-01-31 23:11:42 - search_results_page - INFO - Validating results contain keyword: mazda mx-5
+2026-01-31 23:11:42 - search_results_page - INFO - Getting result titles (limit: 20)
+2026-01-31 23:11:42 - search_results_page - INFO - Retrieved 1 result titles
+2026-01-31 23:11:42 - search_results_page - INFO - Found 1 results containing 'mazda mx-5'
+2026-01-31 23:11:42 - search_results_page - INFO - Applying transmission filter: Manual
+2026-01-31 23:11:42 - base_page - INFO - Waiting for element: div.srp-rail__left
+2026-01-31 23:11:42 - search_results_page - INFO - Looking for Transmission filter section
+2026-01-31 23:11:42 - base_page - INFO - Scrolling to bottom of page
+2026-01-31 23:11:42 - base_page - INFO - Waiting for load state: 
+2026-01-31 23:11:43 - search_results_page - INFO - Clicked Transmission filter to expand
+2026-01-31 23:11:43 - base_page - INFO - Waiting for load state: domcontentloaded
+2026-01-31 23:11:43 - search_results_page - INFO - Looking for Manual option
+2026-01-31 23:11:43 - search_results_page - INFO - Selected Manual transmission option
+2026-01-31 23:11:43 - base_page - INFO - Waiting for load state: 
+2026-01-31 23:11:44 - search_results_page - INFO - Filter applied successfully
+2026-01-31 23:11:44 - base_page - INFO - Waiting for load state: 
+2026-01-31 23:11:44 - search_results_page - INFO - Getting search result count
+2026-01-31 23:11:44 - base_page - INFO - Getting text from: h1.srp-controls__count-heading span:first-child
+2026-01-31 23:11:44 - search_results_page - INFO - Result count text: 1
+2026-01-31 23:11:44 - search_results_page - INFO - Total search results: 1
+2026-01-31 23:11:44 - root - INFO - Captured screenshot for passed: screenshots\test_search_and_filter[chromium]_passed_20260131_231144.png
+2026-01-31 23:11:44 - root - INFO - <<< END TEST: test_search_and_filter[chromium]
+2026-01-31 23:11:45 - root - INFO - === TEST SESSION END ===
+2026-01-31 23:11:45 - root - INFO - Report generated: reports\test_20260131_231136.html
+2026-01-31 23:11:45 - root - INFO - Generated HTML session report: reports\test_20260131_231136.html
