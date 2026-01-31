@@ -26,7 +26,7 @@ python -m playwright install chromium
 2. Run the simple pytest test:
 
 ```powershell
-pytest tests/test_simple_flow.py -q
+pytest test_simple_flow.py
 ```
 
 ---
@@ -36,7 +36,7 @@ pytest tests/test_simple_flow.py -q
 - `config.json` — test data & settings
 - `home_page.py` — search helper (`search_and_open_results`)
 - `search_results_page.py` — helpers (`validate_results_and_count`, `apply_transmission_and_get_count`)
-- `tests/test_simple_flow.py` — one-line test that calls page helpers
+- `test_simple_flow.py` — one-line test that calls page helpers
 - `logger_report.py` — logging and HTML report generation
 
 ---
